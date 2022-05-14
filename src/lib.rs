@@ -5,7 +5,4 @@ mod witness;
 pub use witness::WitnessCalculator;
 
 pub mod circom;
-pub use circom::{CircomBuilder, CircomCircuit, CircomConfig, CircomReduction};
-
-mod zkey;
-pub use zkey::read_zkey;
+pub use circom::{CircomBuilder, CircomCircuit, CircomConfig};
